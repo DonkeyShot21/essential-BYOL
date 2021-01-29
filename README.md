@@ -19,7 +19,7 @@ conda activate essential-byol
 conda install pytorch=1.7.1 torchvision=0.8.2 cudatoolkit=XX.X -c pytorch
 pip install pytorch-lightning==1.1.6 pytorch-lightning-bolts==0.3 wandb opencv-python
 ```
-The code has been tested using these versions of the packages, but it will probably work with slightly different environments as well. When your run the code (see below for commands), PyTorch Lightning will probably throw a warning, advising you to install additional packages as `gym`, `sklear` and `matplotlib`. They are not needed for this implementation to work, but you can install them to get rid of the warning.
+The code has been tested using these versions of the packages, but it will probably work with slightly different environments as well. When your run the code (see below for commands), PyTorch Lightning will probably throw a warning, advising you to install additional packages as `gym`, `sklearn` and `matplotlib`. They are not needed for this implementation to work, but you can install them to get rid of the warnings.
 
 # Datasets
 Three datasets are supported:
