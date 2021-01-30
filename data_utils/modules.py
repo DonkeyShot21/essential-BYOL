@@ -3,7 +3,7 @@ from torchvision import datasets
 from torchvision import transforms as transform_lib
 from pytorch_lightning import LightningDataModule
 
-from data.transforms import BYOLDataTransform
+from data_utils.transforms import BYOLDataTransform
 
 import os
 

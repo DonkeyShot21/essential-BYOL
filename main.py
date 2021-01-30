@@ -3,7 +3,7 @@ import pytorch_lightning as pl
 
 
 from byol.model import BYOL
-import data.modules as data_modules
+import data_utils.modules as data_modules
 
 from argparse import ArgumentParser
 from datetime import datetime
