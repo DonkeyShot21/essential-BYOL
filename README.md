@@ -21,9 +21,9 @@ Here is the accuracy after training for 1000 epochs:
 | CIFAR100 | 67.0% | 90.5% |
 ### Training and Validation Curves
 #### CIFAR10
-<img src="assets/loss-CIFAR10.png" width="290"> <img src="assets/acc@1-CIFAR10.png" width="290"> <img src="assets/acc@5-CIFAR10.png" width="290">
+<img src="assets/loss-CIFAR10.png" width="275"> <img src="assets/acc@1-CIFAR10.png" width="275"> <img src="assets/acc@5-CIFAR10.png" width="275">
 #### CIFAR100
-<img src="assets/loss-CIFAR100.png" width="290"> <img src="assets/acc@1-CIFAR100.png" width="290"> <img src="assets/acc@5-CIFAR100.png" width="290">
+<img src="assets/loss-CIFAR100.png" width="275"> <img src="assets/acc@1-CIFAR100.png" width="275"> <img src="assets/acc@5-CIFAR100.png" width="275">
 
 
 # Environment
