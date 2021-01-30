@@ -1,7 +1,8 @@
 # Essential BYOL
 A simple and complete implementation of [Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) in PyTorch + [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning).
 
-![pytorch](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpytorch.org%2F&psig=AOvVaw0GVlSIIIWTWu02mXLmAT-l&ust=1612003252768000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCFqZz6wO4CFQAAAAAdAAAAABB9) ![pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning/blob/master/docs/source/_images/logos/lightning_logo-name.png)
+<img src="https://pytorch.org/assets/images/pytorch-logo.png" height="100"> <img src="https://github.com/PyTorchLightning/pytorch-lightning/blob/master/docs/source/_images/logos/lightning_logo-name.png" height="100">
+
 
 Good stuff:
 * good performance (~67% linear eval accuracy on CIFAR100)
@@ -18,7 +19,7 @@ conda activate essential-byol
 conda install pytorch=1.7.1 torchvision=0.8.2 cudatoolkit=XX.X -c pytorch
 pip install pytorch-lightning==1.1.6 pytorch-lightning-bolts==0.3 wandb opencv-python
 ```
-The code has been tested using these versions of the packages, but it will probably work with slightly different environments as well. When your run the code (see below for commands), PyTorch Lightning will probably throw a warning, advising you to install additional packages as `gym`, `sklear` and `matplotlib`. They are not needed for this implementation to work, but you can install them to get rid of the warning.
+The code has been tested using these versions of the packages, but it will probably work with slightly different environments as well. When your run the code (see below for commands), PyTorch Lightning will probably throw a warning, advising you to install additional packages as `gym`, `sklearn` and `matplotlib`. They are not needed for this implementation to work, but you can install them to get rid of the warnings.
 
 # Datasets
 Three datasets are supported:
