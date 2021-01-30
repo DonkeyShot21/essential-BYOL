@@ -12,6 +12,20 @@ Good stuff:
 * linear evaluation is performed during training without any additional forward pass
 * logging with Wandb
 
+# Performance
+### Linear Evaluation Accuracy
+Here is the accuracy after training for 1000 epochs:
+| Dataset | Acc@1 | Acc@5 |
+| --- | --- | --- |
+| CIFAR10 | 91.1% | 99.8% |
+| CIFAR100 | 67.0% | 90.5% |
+### Training and Validation Curves
+#### CIFAR10
+<img src="assets/loss-CIFAR10.png" width="290"> <img src="assets/acc@1-CIFAR10.png" width="290"> <img src="assets/acc@5-CIFAR10.png" width="290">
+#### CIFAR100
+<img src="assets/loss-CIFAR100.png" width="290"> <img src="assets/acc@1-CIFAR100.png" width="290"> <img src="assets/acc@5-CIFAR100.png" width="290">
+
+
 # Environment
 ```
 conda create --name essential-byol python=3.8
