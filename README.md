@@ -1,7 +1,7 @@
 # Essential BYOL
 A simple and complete implementation of [Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) in PyTorch + [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning).
 
-<img src="https://pytorch.org/assets/images/pytorch-logo.png" height="100"> <img src="https://github.com/PyTorchLightning/pytorch-lightning/blob/master/docs/source/_images/logos/lightning_logo-name.png" height="100">
+<img src="https://pytorch.org/assets/images/pytorch-logo.png" height="100"> <img src="https://github.com/PyTorchLightning/pytorch-lightning/blob/master/docs/source/_static/images/logo.png" height="100">
 
 
 Good stuff:
